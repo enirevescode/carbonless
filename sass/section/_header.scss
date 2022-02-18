@@ -1,5 +1,22 @@
 /***************************************************/
 /*==============       HEADER ++++++++++++         */
 /***************************************************/
+h1{
+   font-size: 50px;
+   font-weight: 700;
+   @extend %margin;
 
+}
+
+h2{
+   font-size: 20px;
+   font-weight: 600;
+   @extend %margin;
+}
 //accueil
+
+iframe {
+   overflow-y: hidden;
+   overflow-x: hidden;
+}
+

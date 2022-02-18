@@ -3,10 +3,10 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-  <title>Titre du site</title>
+  <title>Crédit-carbon</title>
 
   <a href="<?php echo home_url('/'); ?>">
-    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/ikone_pizza.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/sanstitre2.png" type="image/x-icon" width="32" height="32">
   </a>
   <!-- Required meta tags -->
   <!-- balise "utf-8"-->

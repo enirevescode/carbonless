@@ -4,7 +4,7 @@ Theme Name: direct_carbon
 Theme URI: https://enirevescode.fr/
 Author: enireves
 Author URI: https://enirevescode.fr/
-Description: est 1 theme propriétaire pour 1 site de commande de pizza sur place ou à emporter
+Description: est 1 theme propriétaire pour 1 site de compensation carbone
 Version: 1.0.0
 Text Domain: direct_carbon
 */
@@ -55,8 +55,13 @@ td, th {
   padding: 0;
 }
 
+h1, h2 {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
 .btn {
-  background-color: #ff4757;
+  background-color: #edfef3;
   color: aliceblue;
   font-weight: 500;
   position: relative;
@@ -81,7 +86,7 @@ td, th {
   /* Remove borders */
   outline: none;
   /* Remove outline */
-  background-color: #ff4757;
+  background-color: #edfef3;
   /* Set a background color */
   color: aliceblue;
   /* Text color */
@@ -96,7 +101,7 @@ td, th {
 }
 
 #myBtn:hover {
-  background-color: #e00013;
+  background-color: #8cf9b3;
 }
 
 /*************************************************/
@@ -105,6 +110,10 @@ td, th {
 /************************************************/
 /*                 SLIDE-HOME                   */
 /************************************************/
+li {
+  justify-content: space-between;
+}
+
 /* FOOTER */
 footer {
   color: #273c75;
@@ -113,8 +122,23 @@ footer {
 /***************************************************/
 /*==============       HEADER ++++++++++++         */
 /***************************************************/
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+iframe {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
 body {
-  background-color: white;
+  background-color: #edfef3;
   overflow-x: hidden;
 }
 /*# sourceMappingURL=style.css.map */

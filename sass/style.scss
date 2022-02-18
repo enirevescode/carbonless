@@ -4,7 +4,7 @@ Theme Name: direct_carbon
 Theme URI: https://enirevescode.fr/
 Author: enireves
 Author URI: https://enirevescode.fr/
-Description: est 1 theme propriétaire pour 1 site de commande de pizza sur place ou à emporter
+Description: est 1 theme propriétaire pour 1 site de compensation carbone
 Version: 1.0.0
 Text Domain: direct_carbon
 */
@@ -12,6 +12,7 @@ Text Domain: direct_carbon
 @import 'base/_fonts';
 
 @import "tools/_variables";
+@import "tools/_placeholders";
 
 
 @import "components/_buttons";
@@ -23,6 +24,6 @@ Text Domain: direct_carbon
 @import "section/_header";
 
 body{
-   background-color: white;
+   background-color: $vert_tendre;
    overflow-x: hidden;
 }
